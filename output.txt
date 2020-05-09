@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-5.4.2, py-1.8.1, pluggy-0.13.1 -- c:\users\ibk\appdata\local\programs\python\python38-32\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\IBK\Desktop\project-2
+plugins: cov-2.8.1
+collecting ... collected 5 items
+
+test_poker.py::test_PKCard_init PASSED                                   [ 20%]
+test_poker.py::test_PKCard_init_exception PASSED                         [ 40%]
+test_poker.py::test_PKCard_repr PASSED                                   [ 60%]
+test_poker.py::test_tell_hand_ranking PASSED                             [ 80%]
+test_poker.py::test_comp PASSED                                          [100%]
+
+----------- coverage: platform win32, python 3.8.2-final-0 -----------
+Name            Stmts   Miss  Cover
+-----------------------------------
+card.py            75     39    48%
+poker.py          248     85    66%
+test_poker.py     111      0   100%
+-----------------------------------
+TOTAL             434    124    71%
+
+
+============================== 5 passed in 0.25s ==============================
